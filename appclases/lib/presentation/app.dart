@@ -18,6 +18,7 @@ class MyApp extends StatelessWidget {
       routes: {
         LogScreen.routeName: (_) => const LogScreen(),
         HomeScreen.routeName: (_) => const HomeScreen(),
+        VoteScreen.routeName: (_) => const VoteScreen(),
       },
     );
   }
